@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const keysArray = process.env.ATTOMDATA_KEYS.split(',');
+const keysArray = process.env.ATTOMDATA_KEYS;
 
 if (typeof window !== 'undefined') {
   if (process.env.NODE_ENV !== 'production') {
